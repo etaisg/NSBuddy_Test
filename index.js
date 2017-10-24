@@ -22,7 +22,7 @@ app.set('port',(process.env.PORT || 5000))
 const apiaiApp = apiai(APIAI_TOKEN);
 
 app.get('/', function (req, res){
-	res.send('Hello Facebook!!')
+	res.send('Hello Test!!')
 })
 
 
