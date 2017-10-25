@@ -336,7 +336,7 @@ function sendList(recipientId){
 function callSendAPI(messageData) {
   request({
     uri: 'https://graph.facebook.com/v2.6/me/messages',
-    qs: { access_token: FB_ACECSS_TOKEN },
+    qs: { access_token: FB_ACCESS_TOKEN },
     method: 'POST',
     json: messageData
     }, callback);  
