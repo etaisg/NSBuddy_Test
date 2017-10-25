@@ -1,4 +1,4 @@
-const FB_ACECSS_TOKEN = process.env.FB_ACECSS_TOKEN
+const FB_ACCESS_TOKEN = process.env.FB_ACCESS_TOKEN
 const FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN
 const APIAI_TOKEN = process.env.APIAI_TOKEN;
 
